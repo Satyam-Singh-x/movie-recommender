@@ -7,8 +7,11 @@ A content-based Movie Recommender System built with Python, Pandas, Scikit-learn
 🔍 Features
 Content-based filtering using genres, keywords, cast, and crew
 
+Dataset Link: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
 
 Cosine similarity for recommendation
+
 
 Interactive frontend built with Streamlit
 

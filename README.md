@@ -1,8 +1,12 @@
 🎬 Movie Recommender System
+
+
 A content-based Movie Recommender System built with Python, Pandas, Scikit-learn, and Streamlit. This app suggests similar movies based on the user's selected movie using cosine similarity on movie metadata.
+
 
 🔍 Features
 Content-based filtering using genres, keywords, cast, and crew
+
 
 Cosine similarity for recommendation
 
@@ -16,6 +20,7 @@ Easy to use and fast responses
 🔗 Check it out on Streamlit
 (Replace with your deployed URL)
 
+
 🧠 Tech Stack
 Category	Tools/Libraries
 Language	Python
@@ -23,6 +28,7 @@ Data Handling	Pandas, NumPy
 ML & NLP	Scikit-learn, NLTK
 Deployment	Streamlit, GitHub
 Visualization	Matplotlib, Seaborn (if used)
+
 
 🛠️ Installation
 Clone the repository:
@@ -41,15 +47,21 @@ bash
 pip install -r requirements.txt
 
 
-📁 Files Overview
+📁 Files in this Repository
 
-File	Description
 
-app.py	Main Streamlit app file
+app.py: Main Streamlit web app script for movie recommendation
 
-movies.pkl	Preprocessed movie metadata 
+movie-recommender-system.ipynb: Jupyter Notebook with full data preprocessing and model building using NLTK
 
-requirements.txt	List of all required Python packages
+movies.pkl: Pickle file storing cleaned and processed movie metadata
+
+requirements.txt: Lists all dependencies required to run the application
+
+Note:
+The similarity.pkl file is not stored in the repository due to its size.
+It is loaded dynamically from Google Drive at runtime using gdown.
+
 
 🧠 How It Works
 Load movie metadata and similarity matrix from .pkl files.
@@ -77,6 +89,7 @@ Make sure requirements.txt is present
 
 🙋‍♂️ Author
 Made with ❤️ by Satyam Singh
+
 📫 singhsatyam.0912@gmail.com — https://www.linkedin.com/in/satyam-singh-61152a334
 
 

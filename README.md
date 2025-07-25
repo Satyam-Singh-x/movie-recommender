@@ -19,17 +19,24 @@ Clean UI with styled interface
 
 Easy to use and fast responses
 
-🚀 Live Demo
+🚀 Live Demo link: https://movie-recommender-bysatyam.streamlit.app/
+
 🔗 Check it out on Streamlit
 (Replace with your deployed URL)
 
 
 🧠 Tech Stack
+
 Category	Tools/Libraries
+
 Language	Python
+
 Data Handling	Pandas, NumPy
+
 ML & NLP	Scikit-learn, NLTK
+
 Deployment	Streamlit, GitHub
+
 Visualization	Matplotlib, Seaborn (if used)
 
 
@@ -39,9 +46,9 @@ Clone the repository:
 bash
 
 
-git clone https://github.com/your-username/movie-recommender-system.git
+git clone https://github.com/Satyam-Singh-x/movie-recommender.git
 
-cd movie-recommender-system
+cd movie-recommender
 
 Install dependencies:
 

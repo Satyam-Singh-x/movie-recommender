@@ -3,6 +3,21 @@ import pickle
 import pandas as pd
 import requests
 
+import gdown
+import os
+
+# Google Drive file ID (extracted from your link)
+file_id = '17IyZf2_kLW59zNVCcMDgByVBIMUpryNi'
+output_file = 'sim.pkl'
+
+# Download only if not already downloaded
+if not os.path.exists(output_file):
+    with st.spinner('Downloading large model file...'):
+        gdown.download(f'https://drive.google.com/uc?id={file_id}', output_file, quiet=False)
+
+# Load the pickle file
+with open(output_file, 'rb') as f:
+    similarity = pickle.load(f)
 
 def fetch_poster(movie_id):
  response=requests.get('https://api.themoviedb.org/3/movie/{}?api_key=82b6234edc23f067feacca6bbd34e865&language=en-US'.format(movie_id))
@@ -27,7 +42,6 @@ def recommend(movie):
 
 
 movies=pickle.load(open('movies.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
 movies_list_name=movies['title'].values
 
 

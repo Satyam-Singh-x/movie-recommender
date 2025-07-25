@@ -2,7 +2,11 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-
+import os
+import requests
+import pickle
+import streamlit as st
+import pickle
 import gdown
 import os
 
@@ -18,6 +22,13 @@ if not os.path.exists(output_file):
 # Load the pickle file
 with open(output_file, 'rb') as f:
     similarity = pickle.load(f)
+
+
+
+
+
+
+
 
 def fetch_poster(movie_id):
  response=requests.get('https://api.themoviedb.org/3/movie/{}?api_key=82b6234edc23f067feacca6bbd34e865&language=en-US'.format(movie_id))
@@ -42,10 +53,13 @@ def recommend(movie):
 
 
 movies=pickle.load(open('movies.pkl', 'rb'))
+
+
+
 movies_list_name=movies['title'].values
 
 
-import streamlit as st
+
 
 st.markdown(
     """

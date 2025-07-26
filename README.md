@@ -27,20 +27,20 @@ Easy to use and fast responses
 
 🧠 Tech Stack
 
-Category	Tools/Libraries
 
-Language	Python
+Language:	Python
 
-Data Handling	Pandas, NumPy
+Data Handling: Pandas, NumPy
 
-ML & NLP	Scikit-learn, NLTK
+ML & NLP: Scikit-learn, NLTK
 
-Deployment	Streamlit, GitHub
+Deployment:	Streamlit, GitHub
 
-Visualization	Matplotlib, Seaborn (if used)
+Visualization: Matplotlib, Seaborn (if used)
 
 
 🛠️ Installation
+
 Clone the repository:
 
 bash
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 app.py: Main Streamlit web app script for movie recommendation
 
-movie-recommender-system.ipynb: Jupyter Notebook with full data preprocessing and model building using NLTK
+movie-recommender-system.ipynb:  Data preprocessing , EDA and model building using NLTK
 
 movies.pkl: Pickle file storing cleaned and processed movie metadata
 

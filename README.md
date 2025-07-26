@@ -98,10 +98,12 @@ Make sure requirements.txt is present
 
 
 🙋‍♂️ Author
-Made with ❤️ by Satyam Singh
 
-📫 singhsatyam.0912@gmail.com — https://www.linkedin.com/in/satyam-singh-61152a334
+Satyam Singh
 
+B.Tech, Chemical Engineering – Jadavpur University
+
+LinkedIn: https://www.linkedin.com/in/satyam-singh-61152a334 | singhsatyam.0912@gmail.com
 
 
 
